@@ -14,7 +14,7 @@ int main(){
 	for (int i=3;i<=n;i++)
     {cout<<"Enter the next number: ";
     cin>>x3;
-    if(x>=(x2+x3)) {x=x2+x3; k+=1;}
+    if(x>=(x2+x3)) {x=x2+x3; k=i-1;}
     x2=x3;
     }
 	cout<<" min="<<x<<" when x"<<k<<"+x"<<k+1;
